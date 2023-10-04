@@ -1,0 +1,170 @@
+
+.open{
+    display: flex;
+    position: fixed;
+    top : 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0 , 0 , 0 , 0.3);
+    background-blend-mode: darken;
+    height: auto;   
+    width:  100%;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    align-content: center;
+    z-index: 99999;
+    margin: auto;
+}
+
+
+
+.open .dialouge{
+    background: #fff;
+    padding: 10%;
+    flex-direction: column;
+}
+
+
+
+.none{
+    display: none;
+}
+
+.btn{
+    background: rgba(59, 253, 59, 0.733);
+    border: nsearchHereone;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2%;
+    color: #1b1b1b;
+}
+
+.editor{
+    height: auto;
+    width: 40%;
+    margin: auto;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+    margin-top: 3%;
+    border : 1px solid #fcfcfc;
+    border-radius: 10px;
+}
+.title , .body{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+}
+
+.title input{
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+::placeholder{
+    margin-left: 1%;
+}
+
+.body textarea{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    height: 50px;
+}
+
+
+
+ul{
+    display: inline-block;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+}
+
+.container:hover ul{
+    opacity: 1;
+}
+
+li{
+    display: inline;
+    padding: 10px;
+}
+
+li>i:hover{
+    color: rebeccapurple;
+}
+
+.button{
+    background: white;
+    color: black;
+    border: none;
+    outline: none;
+    padding: 5px;
+    height: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.close{
+    height: 30px;
+    text-align: center;
+    background: #fcfcfc;
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.2);
+    padding: 10px;
+    font-size: 15px;
+    line-height: 0;
+}
+
+@media (max-width : 900px){
+    .editor{
+        height: auto;
+        width: 90%;
+        margin: auto;
+        box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+        margin-top: 3%;
+        border : 1px solid #fcfcfc;
+        border-radius: 10px;
+    }
+    .title , .body{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        padding: 10px;
+    }
+    
+    .title input{
+        outline: none;
+        width: 90%;
+        font-size: 15px;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .body textarea{
+        width: 90%;
+    }
+
+    .dialouge{
+        width: 80%;
+        height: 50%;
+        margin: auto;
+    }
+    
+}
