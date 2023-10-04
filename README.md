@@ -4,7 +4,7 @@ Its  a frontend clone of google keep.
 Made Using:->.
 + React
 + Redux
-+ Yarn (as package manager) 
++Html
 + Css
 
 All functionalites 
