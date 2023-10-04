@@ -1,17 +1,13 @@
-## Smallcase Frontend Assignment Project
 
+## Keepie
 Its  a frontend clone of google keep.
-
-The deployed webapp is live at https://keepnote.daggron.now.sh/
-
-Technologies used
-
+Made Using:->.
 + React
 + Redux
 + Yarn (as package manager)
 + Css
 
-Core Functionalites 
+All functionalites 
 
 + Add and delete notes
 + Archive notes
@@ -27,12 +23,12 @@ Scripts
 + To install the dependencies 
 
     ```
-    Yarn or npm install
+    npm install
     ```
 + To run project on local server
 
     ```
-    Yarn start or npm start
+    npm start
     ```
 
 
