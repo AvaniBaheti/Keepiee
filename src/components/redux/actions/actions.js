@@ -10,7 +10,7 @@ export function DeleteNote(value){
         type : "DeleteNote",
         value : value
     }
-}
+} 
 
 export function UpdateNote(value){
     return{
