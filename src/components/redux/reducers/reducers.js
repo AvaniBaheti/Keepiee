@@ -1,6 +1,6 @@
 let notes = JSON.parse(localStorage.getItem('notes')) || []
 
-function NoteReducer(state = notes , action){
+function NoteReducer(state = notes , action){ 
     switch (action.type){
         case "AddNote":{
             const data = [...state,action.value];
